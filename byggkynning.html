@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="byggkynning.css" media="screen">
+    <title>BYGG kerfi kynning</title>
+</head>
+
+<body>
+    <div id="page-wrap" class="page">
+        <div id="header">
+            <a href="https://www.byggkerfid.is/ByggKerfid/">
+                <img src="https://www.byggkerfid.is/ByggKerfid/Content/templates/hannarr/images/bygg-kerfid-logo-web.jpg">
+            </a>
+        </div>
+        <div class="transbox">
+            <div id="nav" class="navigation">
+
+                <!-- Her byrja bubblurnar -->
+                <div class="item kostnadaraaetlun">
+                    <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
+                    <a href="#" class="icon"></a>
+                    <h2>Kostnaðaráætlun</h2>
+                    <ul>
+                        <li><a href="#">Tilboð</a></li>
+                        <li><a href="#">Útboðsform</a></li>
+                        <li><a href="#">Verklýsingar</a></li>
+                    </ul>
+                </div>
+                <div class="item honnun">
+                    <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
+                    <a href="#" class="icon"></a>
+                    <h2>Hönnun</h2>
+                    <ul>
+                        <li><a href="#">Arkitekt</a></li>
+                        <li><a href="#">Burðarvirki</a></li>
+                        <li><a href="#">Lagnir</a></li>
+                        <li><a href="#">Raforkuvirki</a></li>
+                    </ul>
+                </div>
+                <div class="item utbod">
+                    <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
+                    <a href="#" class="icon"></a>
+                    <h2>Útboð</h2>
+                    <ul>
+                        <li><a href="#">Verkskilmalar</a></li>
+                        <li><a href="#">Verklysingar</a></li>
+                        <li><a href="#">Magntolur</a></li>
+                        <li><a href="#">Teikningar</a></li>
+                    </ul>
+                </div>
+                <div class="item verkaaetlun">
+                    <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
+                    <a href="#" class="icon"></a>
+                    <h2>Verkáætlun</h2>
+                    <ul>
+                        <li><a href="#">PLACEHOLDER</a></li>
+                    </ul>
+                </div>
+                <div class="item gaedakerfi">
+                    <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
+                    <a href="#" class="icon"></a>
+                    <h2>Gæðakerfi - </h2>
+                    <ul>
+                        <li><a href="#">Arkitekta</a></li>
+                        <li><a href="#">Verktaka</a></li>
+                        <li><a href="#">Byggingarstjóra</a></li>
+                        <li><a href="#">Iðnmeistarar</a></li>
+                    </ul>
+                </div>
+                <div class="item framkvaemdir">
+                    <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
+                    <a href="#" class="icon"></a>
+                    <h2>Framkvæmdir - </h2>
+                    <ul>
+                        <li><a href="#">PLACEHOLDER</a></li>
+                    </ul>
+                </div>
+                <div class="item verkuppgjor">
+                    <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
+                    <a href="#" class="icon"></a>
+                    <h2>Verkuppgjör </h2>
+                    <ul>
+                        <li><a href="#">Áfangi 1,2,.. </a></li>
+                        <li><a href="#">Samningur</a></li>
+                        <li><a href="#">Uppgjör 1,2,3,.. </a></li>
+                    </ul>
+                </div>
+                <div class="item handbaekur">
+                    <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
+                    <a href="#" class="icon"></a>
+                    <h2>Handbækur </h2>
+                    <ul>
+                        <li><a href="#">Handbók hússins </a></li>
+                        <li><a href="#">Rekstrarhandbækur</a></li>
+                    </ul>
+                </div>
+               <!-- Her enda bubblurnar -->
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="page-background-footer">
+            <div style="text-align:center;margin-top:1em;">
+                <strong>
+                    <a href="http://www.hannarr.com" style="color:White">Hannarr ehf.</a>
+                </strong> © 2010 - 2017 <br> Síðumúla 1, 108 Reykjavík <br> S: 533-3900 · Tölvupóstur: "
+                <a href="mailto:hannarr@hannarr.com" style="color:White">hannarr@hannar.com</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JAVASCRIPT KODINN -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#nav > div').hover(
+
+                function () {
+                    var $this = $(this);
+                    $this.find('img').stop().animate({
+                        'width': '199px',
+                        'height': '199px',
+                        'top': '-25px',
+                        'left': '-25px',
+                        'opacity': '1.0'
+                    }, 500, 'easeOutBack', function () {
+                        $(this).parent().find('ul').fadeIn(700);
+                    });
+
+                    $this.find('a:first,h2').addClass('active');
+                },
+
+                function () {
+                    var $this = $(this);
+                    $this.find('ul').fadeOut(500);
+                    $this.find('img').stop().animate({
+                        'width': '52px',
+                        'height': '52px',
+                        'top': '0px',
+                        'left': '0px',
+                    }, 5000, 'easeOutBack');
+
+                    $this.find('a:first,h2').removeClass('active');
+                }
+            );
+        });
+    </script>
+</body>
+
+</html>

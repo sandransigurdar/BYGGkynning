@@ -1,0 +1,204 @@
+body{
+    background-image: url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 1.6em;
+    color: #333;
+    margin: 0;
+    padding-top: 10px;
+    height: 100%;
+    -webkit-font-smoothing: antialiased; /*Gerir thetta einhvern mun? */
+}
+
+#page-wrap {
+    align: center;
+    min-height: 100%;
+    width: 97%;
+    overflow: auto;
+    padding-bottom: 150px;
+    margin: 0 auto;
+}
+
+/******************************************************************/
+/*************************** HEADER *******************************/
+/******************************************************************/
+
+#header {
+    background-image: url("Myndir/headercolor.png");
+    background-repeat: repeat-x;
+    padding: 0px 10px 0px;
+}
+
+/*** Transparent hluti bakgrunnsins ***/
+.transbox {
+    /*margin: 0px 10px 5px 10px;*/   
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    overflow: auto;
+    padding-bottom: 99px;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: static;
+    height: 500px;
+}
+/********************************************************************/
+/********************* MAIN HLUTI SÍÐUNNAR ! ************************/
+/******************** innan í gegnsæja boxinu ***********************/
+/********************************************************************/
+
+.navigation {
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*** Hvernig stadsetn a bubbles ***/
+.navigation .item{
+    position: relative;
+}
+/***********************************************************/
+/*** Stadsetning a bubbles fra köntum transparent boxins ***/
+/***********************************************************/
+.kostnadaraaetlun {
+    left: 70px;
+    top: 60px;
+}
+
+.honnun {
+    left: 190px;
+    top: 60px;
+}
+
+.utbod {
+    left: 280px;
+    top: 60px;
+}
+
+.verkaaetlun {
+    left: 330px;
+    top: 80px;
+}
+
+.gaedakerfi {
+    left: 500px;
+    top: 60px;
+}
+
+.framkvaemdir {
+    left: 720px;
+    top: 100px;
+}
+
+.verkuppgjor {
+    left: 900px;
+    top:100px;
+}
+
+.handbaekur {
+    left: 1200px;
+    top: 50px;
+}
+
+a.icon {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.navigation .item a.active{
+    background-position: 0px -52px;
+}
+
+.item img.circle{
+    position: absolute; /* ef vid viljum ekki ad transparent box steakki og minnki, veljum tha absolute her */
+    top:0px;
+    left:0px;
+    width:52px;
+    height:52px;
+}
+
+/*** Bubblu fyrirsogn ***/
+.item h2{
+    position: absolute;
+    width: 147px;
+    height: 52px;
+    color:#222;
+    font-size: 14px;
+    top: 0px;
+    left: 0px;
+    text-indent: 10px;
+    line-height: 10px;
+    text-shadow: 1px 1px 1px #fff;
+    text-transform: uppercase;
+}
+
+.item h2.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+
+.item ul{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    display: none;
+}
+
+.item ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color:#222;
+    padding: 3px;
+    float: left;
+    clear: both;
+    width: 100px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.item ul li a:hover{
+    background-color:#fff;
+    color:#444;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 4px #666;
+}
+
+
+/********************************************************************/
+/***************************** FOOTER ! *****************************/
+/********************************************************************/
+#footer {
+    margin-top: -150px;
+    height: 150px;
+    clear: both;
+    font: normal .7em Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+.page-background-footer {
+    background-image: url(https://www.byggkerfid.is/ByggKerfid/Content/templates/hannarr/images/BackgroundBottom.gif);
+    background-repeat: repeat-x;
+    height: 80px;
+    color: White;
+    clear: both;
+    padding: 5px;
+    border-top: 1px solid #ccc;
+}
+
+/* Gildir um oll div, kannski otharfi */
+div {
+    display: block;
+}
