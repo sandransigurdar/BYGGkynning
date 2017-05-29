@@ -1,7 +1,7 @@
 body{
     background-image: url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     line-height: 1.6em;
     color: #333;
     margin: 0;
