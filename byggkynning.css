@@ -34,14 +34,16 @@ body{
     /*margin: 0px 10px 5px 10px;*/   
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.9;
+    background-image: url("Myndir/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
     filter: alpha(opacity=60); /* For IE8 and earlier */
-    overflow: auto;
-    padding-bottom: 99px;
+    /*overflow: auto;*/
+    /*padding-bottom: 99px;*/
     justify-content: center;
-    margin-bottom: 10px;
     position: static;
-    height: 500px;
+    height: 640px;
 }
 /********************************************************************/
 /********************* MAIN HLUTI SÍÐUNNAR ! ************************/
@@ -55,12 +57,30 @@ body{
     font-style: normal;
     font-weight: bold;
     letter-spacing: 1px;
+    width: 100%;
+    height: 640px;
 }
 
 /*** Hvernig stadsetn a bubbles ***/
 .navigation .item{
     position: relative;
 }
+
+#uppercol {
+    height: 200px;
+    width:100%;
+
+}
+
+#arrowcol {
+    
+}
+
+#lowercol {
+    width:100%;
+    position: relative;
+}
+
 /***********************************************************/
 /*** Stadsetning a bubbles fra köntum transparent boxins ***/
 /***********************************************************/
