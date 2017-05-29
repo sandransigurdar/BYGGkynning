@@ -56,14 +56,14 @@ body{
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 1.3px;
     width: 100%;
     height: 640px;
 }
 
 /*** Hvernig stadsetn a bubbles ***/
 .navigation .item{
-    position: relative;
+    position: absolute;
 }
 
 #uppercol {
@@ -133,6 +133,10 @@ a.icon {
     cursor: pointer;
 }
 
+.kostnadaraaetlun a.icon {
+    background: transparent url("Myndir/nyjalitla.png") no-repeat 0px 0px;
+}
+
 .navigation .item a.active{
     background-position: 0px -52px;
 }
@@ -143,6 +147,7 @@ a.icon {
     left:0px;
     width:52px;
     height:52px;
+    opacity: 0.1;
 }
 
 /*** Bubblu fyrirsogn ***/
@@ -153,7 +158,7 @@ a.icon {
     color:#222;
     font-size: 14px;
     top: 0px;
-    left: 0px;
+    left: 52px;
     text-indent: 10px;
     line-height: 10px;
     text-shadow: 1px 1px 1px #fff;
@@ -176,7 +181,7 @@ a.icon {
 .item ul li a{
     font-size: 13px;
     text-decoration: none;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     color:#222;
     padding: 3px;
