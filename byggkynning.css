@@ -27,13 +27,12 @@ body{
     background-image: url("Myndir/headercolor.png");
     background-repeat: repeat-x;
     padding: 0px 10px 0px;
-    margin-left: 50px;
-    margin-right: 50px;
+    /*margin-left: 50px;
+    margin-right: 50px;*/
 }
 
-/*** Transparent hluti bakgrunnsins ***/
+/*** Gegnsær hluti bakgrunns ***/
 .transbox {
-    /*margin: 0px 10px 5px 10px;*/
     background-color: #ffffff;
     border: 1px solid black;
     background-image: url("Myndir/bg.png");
@@ -45,8 +44,9 @@ body{
     /*padding-bottom: 99px;*/
     justify-content: center;
     position: static;
-    height: 640px;
-    width: 92%;
+    height: 600px;
+    /*width: 92%;*/
+    margin-bottom: 10px;
 }
 /********************************************************************/
 /********************* MAIN HLUTI SÍÐUNNAR ! ************************/
@@ -61,22 +61,17 @@ body{
     font-weight: bold;
     letter-spacing: 1.3px;
     width: 100%;
-    height: 640px;
+    height: 600px;
 }
 
 /*** Hvernig stadsetn a bubbles ***/
 .navigation .item{
-    position: absolute;
+    position: relative;
 }
 
 #uppercol {
     height: 200px;
     width:100%;
-
-}
-
-#arrowcol {
-
 }
 
 #lowercol {
@@ -88,43 +83,37 @@ body{
 /*** Stadsetning a bubbles fra köntum transparent boxins ***/
 /***********************************************************/
 .kostnadaraaetlun {
-    left: 40px;
-    top: 60px;
+    left: 30px;
+    top: 30px;
 }
 
 .honnun {
-    left: 50px;
-    top: 60px;
+    left: 30px;
 }
 
 .utbod {
-    left: 50px;
-    top: 60px;
+  
+    top: 40px;
 }
 
 .verkaaetlun {
-    left: 40px;
-    top: 80px;
+  
 }
 
 .gaedakerfi {
-    left: 50px;
-    top: 60px;
+    top: 80px;
 }
 
 .framkvaemdir {
-    left: 40px;
-    top: 100px;
+    top: 50px;
 }
 
 .verkuppgjor {
-    left: 50px;
-    top:100px;
+    top:200px;
 }
 
 .handbaekur {
-    left: 100px;
-    top: 50px;
+    top: 160px;
 }
 
 a.icon {
@@ -137,7 +126,7 @@ a.icon {
 }
 
 .kostnadaraaetlun a.icon {
-    background: transparent url("Myndir/nyjalitla.png") no-repeat 0px 0px;
+    background: transparent url("Myndir/kostnad.png") no-repeat 0px 0px;
 }
 
 .navigation .item a.active{
@@ -148,8 +137,8 @@ a.icon {
     position: absolute; /* ef vid viljum ekki ad transparent box steakki og minnki, veljum tha absolute her */
     top:0px;
     left:0px;
-    width:52px;
-    height:52px;
+    width:180px;
+    height:180px;
     opacity: 0.1;
 }
 
@@ -160,8 +149,9 @@ a.icon {
     height: 52px;
     color:#222;
     font-size: 14px;
+    font-weight: bold;
     top: 0px;
-    left: 52px;
+    left: 45px;
     text-indent: 10px;
     line-height: 10px;
     text-shadow: 1px 1px 1px #fff;
@@ -169,22 +159,22 @@ a.icon {
 }
 
 .item h2.active{
-    color:#fff;
-    text-shadow:1px 0px 1px #555;
+    color: royalblue;
+    text-shadow:1px 0px 1px white;
 }
 
 .item ul{
     list-style: none;
     position: absolute;
-    top: 20px;
-    left: -15px;
+    top: 40px;
+    left: 18px;
     display: none;
 }
 
 .item ul li a{
     font-size: 13px;
     text-decoration: none;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color:#222;
     padding: 3px;
@@ -202,7 +192,7 @@ a.icon {
     border-radius:5px;
     -moz-box-shadow:1px 1px 4px #666;
     -webkit-box-shadow:1px 1px 4px #666;
-    box-shadow:1px 1px 4px #666;
+    box-shadow: 1px 1px 4px #666;
 }
 
 
