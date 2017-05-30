@@ -66,7 +66,7 @@ body{
 
 /*** Hvernig stadsetn a bubbles ***/
 .navigation .item{
-    position: relative;
+    position: absolute;
 }
 
 #uppercol {
@@ -184,7 +184,7 @@ a.icon {
 .item ul li a{
     font-size: 13px;
     text-decoration: none;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     color:#222;
     padding: 3px;
