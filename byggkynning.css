@@ -80,7 +80,7 @@ body{
 }
 
 /***********************************************************/
-/*** Stadsetning a bubbles fra köntum transparent boxins ***/
+/*** Stadsetning a bubbles fra köntum gegnsæja boxins ***/
 /***********************************************************/
 .kostnadaraaetlun {
     left: 30px;
@@ -116,6 +116,8 @@ body{
     top: 160px;
 }
 
+/* útlitsþættir á "bubbles */
+
 a.icon {
     width: 52px;
     height: 52px;
@@ -125,8 +127,38 @@ a.icon {
     cursor: pointer;
 }
 
+/* Númeruðu kúlurnar */
+
 .kostnadaraaetlun a.icon {
-    background: transparent url("Myndir/kostnad.png") no-repeat 0px 0px;
+    background: transparent url("Myndir/no1.png") no-repeat 0px 0px;
+}
+
+.honnun a.icon {
+    background: transparent url("Myndir/no2.png") no-repeat 0px 0px;
+}
+
+.utbod a.icon {
+    background: transparent url("Myndir/no3.png") no-repeat 0px 0px;
+}
+
+.verkaaetlun a.icon {
+    background: transparent url("Myndir/no4.png") no-repeat 0px 0px;
+}
+
+.gaedakerfi a.icon {
+    background: transparent url("Myndir/no5.png") no-repeat 0px 0px;
+}
+
+.framkvaemdir a.icon {
+    background: transparent url("Myndir/no6.png") no-repeat 0px 0px;
+}
+
+.verkuppgjor a.icon {
+    background: transparent url("Myndir/no7.png") no-repeat 0px 0px;
+}
+
+.handbaekur a.icon {
+    background: transparent url("Myndir/no8.png") no-repeat 0px 0px;
 }
 
 .navigation .item a.active{
