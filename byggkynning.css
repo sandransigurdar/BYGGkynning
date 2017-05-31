@@ -206,13 +206,13 @@ a.icon {
 .item ul li a{
     font-size: 13px;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
     color:#222;
     padding: 3px;
     float: left;
     clear: both;
-    width: 100px;
+    width: 150px; /* lengd á hvítu boxunum með linkunum */
     text-shadow: 1px 1px 1px #fff;
 }
 
