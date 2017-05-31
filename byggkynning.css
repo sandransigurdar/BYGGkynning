@@ -80,42 +80,58 @@ body{
 }
 
 /***********************************************************/
+/*** Statiskar myndir **************************************/
+/***********************************************************/
+
+.hugm {
+    width: 100px;
+    height: 50px;
+}
+
+.fullb {
+    top:160px;
+    width: 150px;
+    height: 80px;
+}
+
+/***********************************************************/
 /*** Stadsetning a bubbles fra köntum gegnsæja boxins ***/
 /***********************************************************/
 .kostnadaraaetlun {
-    left: 30px;
+    left:75px;
     top: 30px;
 }
 
 .honnun {
-    left: 30px;
+    left: 50px;
 }
 
 .utbod {
-    left: 50px;
-    top: 40px;
+    left:75px;
+    top: 65px;
 }
 
 .verkaaetlun {
-    left: 50px;
+    left:55px;
 }
 
 .gaedakerfi {
-    left: 50px;
-    top: 80px;
+    left:75px;
+    top: 95px;
 }
 
 .framkvaemdir {
-    left: 50px;
     top: 50px;
+    left:65px;
 }
 
 .verkuppgjor {
-    top:200px;
+    top:170px;
 }
 
 .handbaekur {
     top: 160px;
+    left: 75px;
 }
 
 /* útlitsþættir á "bubbles */
@@ -173,7 +189,7 @@ a.icon {
     left:0px;
     width:180px;
     height:180px;
-    opacity: 0.02;
+    opacity: 0.02; 
 }
 
 /*** Bubblu fyrirsogn ***/
@@ -241,7 +257,7 @@ a.icon {
 }
 
 .page-background-footer {
-    background-image: url(https://www.byggkerfid.is/ByggKerfid/Content/templates/hannarr/images/BackgroundBottom.gif);
+    background-image: url("https://www.byggkerfid.is/ByggKerfid/Content/templates/hannarr/images/BackgroundBottom.gif");
     background-repeat: repeat-x;
     height: 80px;
     color: White;
