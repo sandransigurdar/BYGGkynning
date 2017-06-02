@@ -80,7 +80,7 @@ body{
 }
 
 /***********************************************************/
-/*** Statiskar myndir **************************************/
+/****************** Statiskar myndir ***********************/
 /***********************************************************/
 
 .hugm {
@@ -105,34 +105,36 @@ body{
 }
 
 .honnun {
-    left: 50px;
-}
-
-.utbod {
     left:75px;
     top: 65px;
 }
 
-.verkaaetlun {
-    left:55px;
-}
-
-.gaedakerfi {
+.utbod {
     left:75px;
     top: 95px;
 }
 
+.verkaaetlun {
+     top:170px;
+}
+
+.gaedakerfi {
+    left: 50px;
+
+}
+
 .framkvaemdir {
+    left:55px;
+
+}
+
+.verkuppgjor {
     top: 50px;
     left:65px;
 }
 
-.verkuppgjor {
-    top:170px;
-}
-
 .handbaekur {
-    top: 160px;
+    top: 110px;
     left: 75px;
 }
 
@@ -245,6 +247,15 @@ a.icon {
     -moz-box-shadow:1px 1px 4px #666;
     -webkit-box-shadow:1px 1px 4px #666;
     box-shadow: 1px 1px 4px #666;
+}
+
+/* Text um ad skoda lidina betur */
+.infotext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-top: 120px;
+    padding-left: 35px;
+    
 }
 
 
