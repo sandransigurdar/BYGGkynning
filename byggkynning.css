@@ -100,21 +100,22 @@ body{
 /*** Stadsetning a bubbles fra köntum gegnsæja boxins ***/
 /***********************************************************/
 .kostnadaraaetlun {
-    left:75px;
+    left:90px;
     top: 30px;
 }
 
 .honnun {
-    left:75px;
+    left:120px;
     top: 65px;
 }
 
 .utbod {
-    left:75px;
+    left:160px;
     top: 95px;
 }
 
 .verkaaetlun {
+    left: 160px;
      top:170px;
 }
 
@@ -172,7 +173,7 @@ a.icon {
 }
 
 .framkvaemdir a.icon {
-    background: transparent url("Myndir/no6.png") no-repeat 0px 0px;
+    background: transparent url("Myndur/framkvaemdir.png") no-repeat 0px 0px;
 }
 
 .verkuppgjor a.icon {
@@ -193,7 +194,7 @@ a.icon {
     left:0px;
     width:180px;
     height:180px;
-    opacity: 0.02; 
+    opacity: 0.02;
 }
 
 /*** Bubblu fyrirsogn ***/
@@ -255,7 +256,7 @@ a.icon {
     font-size: 30px;
     padding-top: 120px;
     padding-left: 35px;
-    
+
 }
 
 
